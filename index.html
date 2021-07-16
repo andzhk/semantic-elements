@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Semantic elements</title>
+    <style>
+       p {
+         color: #26b72b;
+}
+  </style>
+  </head>
+  <body>
+<header>
+  <h1>Semantic elements</h1>
+  <p>Helpful guide</p>
+</header>
+
+<h2>Welcome to <br><span>My website</span></h2>
+
+<p>My website does not make any sense but you will be able to check it out anyway on <time datetime="2021-09-09">September 9</time></p>
+
+<p>The website will be completed at <time datetime="19:00">19:00</time> and you'll get a chance to enjoy it for at least <time datetime="PT200H50M">200h 50m</time>.</p>
+<figure>
+  <img src="brain.png" alt="Coding brain">
+  <figcaption>Fig1. Just a brain with a coding in the background</figcaption>
+</figure>
+
+   <div class="preference">
+        <label for="picture">Do you like this picture?</label>
+        <input type="checkbox" name="picture" id="picture">
+  </div>
+
+    <div class="preferences">
+        <label for="pic">Would you change this picture?</label>
+        <input type="checkbox" name="pic" id="pic">
+    </div>
+
+<button class="favorite website"
+            type="button">
+        Add to favorites
+</button>
+
+<label for="name">Your name:</label>
+
+<input type="text" id="name" name="name" required
+       minlength="1" maxlength="20" size="10">
+<input type="submit" value="Send Request">
+
+
+<label for="opinion">Tell us your opinion:</label>
+
+<textarea id="opinion" name="opinion"
+              rows="5" cols="33">
+    I think the picture can be better because...
+</textarea>
+
+<nav class="main-nav">
+  <ul>
+    <li><a href="signin.html" class="sign in">Sign in</a></li>
+    <li><a href="learnmore.html" class="learn more">Learn more</a></li>
+  </ul>
+</nav>
+
+<main>
+  <h1>Most Popular semantic elements</h1>
+  <p>Header, article, aside, details, main, mark, nav, section, etc.</p>
+
+<article>
+<h2>The importance of semantic elements</h2>
+<p>Semantic elements are essential in creating websites, that is why it is important to learn them.</p>
+</article>
+
+<article>
+<h2>How to master semantic elements?</h2>
+<p>Youtube videos, readings and a lot of practice can help you in that!</p>
+</article>
+</main>
+
+<label for="file">File progress:</label>
+<progress id="file" max="100" value="70"> 70% </progress>
+
+<p>I am still struglling with html but it is really fun once it gets figured out</p>
+
+<aside>
+<h4>Exciting!</h4>
+<p>Semantic elements are fun!</p>
+</aside>
+
+<label for="Choose">Choose your favorite element:</label>
+<input id="Choose" />
+
+<select name="elements" id="element-select">
+    <option value="">--Please choose an option--</option>
+    <option value="header">Header</option>
+    <option value="section">Section</option>
+    <option value="main">Main</option>
+    <option value="img src">img src</option>
+    <option value="Label">label</option>
+    <option value="other">Other</option>
+</select>
+
+
+  </body>
+</html>
